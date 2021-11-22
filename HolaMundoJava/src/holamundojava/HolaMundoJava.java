@@ -17,7 +17,15 @@ public class HolaMundoJava {
     public static void main(String[] args) {
         // TODO code application logic here
         
-        System.out.println("Hola Mundo");
+        int n = 0;
+        
+        while ( n < 10)
+        {
+            System.out.println("Hola Mundo");
+            
+            n++;
+        }
+        
     }
     
 }
